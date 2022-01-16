@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&family=Roboto+Condensed:wght@700&family=Rubik+Beastly&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(182, 180, 180);
+    width: 350px;
+    height: 100vh;
+    font-family: 'M PLUS 2', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik Beastly', cursive;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 82vw;
+}
+.infocontainer{
+    /* background-color: rgb(59, 32, 4); */
+    width: 70vw;
+    height: 58vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.devpic img{
+    height: 58vh;
+    /* margin-left: 65%; */
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size:40px;
+     /* font-family: 'M PLUS 2', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Rubik Beastly', cursive; */
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 23px;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+.about{
+    font-size: 30px;
+}
+.buttons{
+    padding: 34px;
+}
+.buttons button{
+     padding: 9px 14px;
+     border-radius: 22px;
+     color: wheat;
+     background-color: dodgerblue;
+     font-weight:bold;
+     font-size: 15px;
+     margin: 0 3px;
+     cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color:dodgerblue;
+}
